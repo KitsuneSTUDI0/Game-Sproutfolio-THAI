@@ -234,7 +234,7 @@ if (gameHour >= 18) {
     gameHour = 18;
     gameOver = true;
 
-    showEvent("⛔ หมดเวลาการเทรดหุ้นในวันนี้");
+    showEvent("⛔ ตลาดปิด\nเทรดวันนี้จบแล้ว");
 
     setTimeout(() => {
 
@@ -297,7 +297,7 @@ function endTurn() {
         renderCards();
         updateCardButtonsLock();
 
-        showEvent("🔄 เริ่มตาถัดไป");
+        showEvent("🔄 เปิดรอบใหม่\n📈 หุ้นใหม่เข้าตลาดแล้ว");
 
     }, 1500);
 }
