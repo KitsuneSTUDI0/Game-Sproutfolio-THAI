@@ -297,7 +297,7 @@ function endTurn() {
         renderCards();
         updateCardButtonsLock();
 
-        showEvent("🔄 เปิดรอบใหม่\n📈 หุ้นใหม่เข้าตลาดแล้ว");
+        showEvent("🔄 เริ่มตาถัดไป");
 
     }, 1500);
 }
@@ -318,7 +318,7 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("card1").onclick = () => selectCard(0);
     document.getElementById("card2").onclick = () => selectCard(1);
     document.getElementById("card3").onclick = () => selectCard(2);
-
+showEvent("💹 ตลาดกำลังเริ่มเปิด\n📊 เตรียมตัวเลือกการลงทุน");
     console.log("Sproutfolio Started 👑");
 });
 
